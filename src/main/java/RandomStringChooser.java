@@ -15,7 +15,7 @@ public class RandomStringChooser
     if (words.size() > 0)
     {
       return words.remove((int)(Math.random() * words.size()));
-      {
+    }
         return "NONE";
       }
 }
